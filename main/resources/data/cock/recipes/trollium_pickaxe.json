@@ -1,0 +1,20 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        " c ",
+        " c "
+    ],
+    "key": {
+        "#": {
+            "item": "cock:trollium_tool_part"
+        },
+        "c": {
+            "item": "cock:trollium_ingot"
+        }
+    },
+    "result": {
+        "item": "cock:trollium_pickaxe",
+        "count": 1
+    }
+}
