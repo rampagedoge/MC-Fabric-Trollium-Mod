@@ -24,7 +24,7 @@ public class ModInit implements ModInitializer {
     public static final Item TROLLIUM_TOOL_PART = new Item(new Item.Settings().group(ItemGroup.MISC));
 
     private void RegisterItem(Identifier identity, Item item) {
-        Registry.register(Registry.ITEM, identity, item);
+        Registry.register(Registry.ITEM, identity, item); //strupid rergister
     }
     private void RegisterBlock(Identifier identity, Block block) {
         Registry.register(Registry.BLOCK, identity, block);
