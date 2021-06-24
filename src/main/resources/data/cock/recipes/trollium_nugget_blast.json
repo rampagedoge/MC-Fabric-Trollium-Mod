@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:blasting",
+    "ingredient": {
+        "item": "cock:raw_trollium"
+    },
+    "result": "cock:trollium_nugget",
+    "experience": 75,
+    "cookingtime": 100
+}

@@ -5,5 +5,8 @@
     "block.cock.trollium_block": "Trollium Block",
     "item.cock.trollium_axe": "Trollium Axe",
     "block.cock.trollium_ore": "Trollium Ore",
-    "item.cock.raw_trollium": "Raw Trollium Ore"
+    "item.cock.raw_trollium": "Raw Trollium Ore",
+    "item.cock.trollium_nugget": "Trollium Nugget",
+    "item.cock.trollium_electric_part": "Trollium Electric Part",
+    "item.cock.trollium_cylinder": "Trollium Base"
 }

@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "p",
+        "b"
+    ],
+    "key": {
+        "b": {
+            "item": "cock:trollium_cylinder"
+        },
+        "p": {
+            "item": "cock:trollium_electric_part"
+        }
+    },
+    "result": {
+        "item": "cock:trollium_tool_part",
+        "count": 1
+    }
+}

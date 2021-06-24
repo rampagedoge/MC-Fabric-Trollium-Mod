@@ -26,6 +26,9 @@ public class ModInit implements ModInitializer {
     public static final Item RAW_TROLLIUM = new Item(new Item.Settings().group(ItemGroup.MISC));
     public static final Block TROLLIUM_ORE = new TrolliumOre();
     public static final BlockItem TROLLIUM_ORE_ITEM = new BlockItem(TROLLIUM_ORE, new Item.Settings().group(ItemGroup.BUILDING_BLOCKS));
+    public static final Item TROLLIUM_NUGGET = new Item(new Item.Settings().group(ItemGroup.MISC));
+    public static final Item TROLLIUM_ELECTRIC_PART = new Item(new Item.Settings().group(ItemGroup.MISC));
+    public static final Item TROLLIUM_CYLINDER = new Item(new Item.Settings().group(ItemGroup.MISC));
 
     private void RegisterItem(Identifier identity, Item item) {
         Registry.register(Registry.ITEM, identity, item); //strupid rergister
@@ -47,6 +50,9 @@ public class ModInit implements ModInitializer {
         RegisterItem(new Identifier(MODID, "trollium_pickaxe"), TROLLIUM_PICKAXE);
         RegisterItem(new Identifier(MODID, "trollium_axe"), TROLLIUM_AXE);
         RegisterItem(new Identifier(MODID, "raw_trollium"), RAW_TROLLIUM);
+        RegisterItem(new Identifier(MODID, "trollium_nugget"), TROLLIUM_NUGGET);
+        RegisterItem(new Identifier(MODID, "trollium_electric_part"), TROLLIUM_ELECTRIC_PART);
+        RegisterItem(new Identifier(MODID, "trollium_cylinder"), TROLLIUM_CYLINDER);
         //Register Blocks
         //Register Blocks and Block Items
         RegisterBlockWithItem(new Identifier(MODID, "trollium_block"), TROLLIUM_BLOCK, new Identifier(MODID, "trollium_block"), TROLLIUM_BLOCK_ITEM);

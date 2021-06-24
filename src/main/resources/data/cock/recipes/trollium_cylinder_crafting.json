@@ -1,0 +1,17 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "###",
+        "###",
+        " # "
+    ],
+    "key": {
+        "#": {
+            "item": "cock:trollium_block"
+        }
+    },
+    "result": {
+        "item": "cock:trollium_cylinder",
+        "count": 1
+    }
+}

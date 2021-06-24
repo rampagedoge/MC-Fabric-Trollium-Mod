@@ -1,0 +1,9 @@
+{
+    "type": "minecraft:smelting",
+    "ingredient": {
+        "item": "cock:raw_trollium"
+    },
+    "result": "cock:trollium_nugget",
+    "experience": 50,
+    "cookingtime": 175
+}
