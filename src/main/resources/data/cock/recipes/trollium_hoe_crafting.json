@@ -2,8 +2,8 @@
     "type": "minecraft:crafting_shaped",
     "pattern": [
         "##",
-        "c#",
-        "c "
+        "c",
+        "c"
     ],
     "key": {
         "#": {
@@ -14,7 +14,7 @@
         }
     },
     "result": {
-        "item": "cock:trollium_axe",
+        "item": "cock:trollium_hoe",
         "count": 1
     }
 }

@@ -4,7 +4,7 @@ import net.LIGMA.ModInit;
 import net.minecraft.item.ToolMaterial;
 import net.minecraft.recipe.Ingredient;
 
-public class ToolMaterialTrollium implements ToolMaterial {
+public class TrolliumHoe implements ToolMaterial {
 
     @Override
     public int getDurability() {
@@ -13,17 +13,17 @@ public class ToolMaterialTrollium implements ToolMaterial {
 
     @Override
     public float getMiningSpeedMultiplier() {
-        return 12f;
+        return 21f;
     }
 
     @Override
     public float getAttackDamage() {
-        return 10.1f;
+        return 18.1f;
     }
 
     @Override
     public int getMiningLevel() {
-        return 3;
+        return 5;
     }
 
     @Override
